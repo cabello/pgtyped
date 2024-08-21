@@ -33,6 +33,7 @@ In the config file you can override the default type mapping:
 {
   "typesOverrides": { 
     "date": "string",
+    "hstore": "Record<string, string | null>",
     "int8": "BigInt",
     "numeric": "number"
   }
